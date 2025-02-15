@@ -1,0 +1,119 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styled Title */
+h1 {
+    color: goldenrod;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+/* Message Styling */
+#message-el {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Animated Buttons */
+button {
+    color: white;
+    width: 160px;
+    background: linear-gradient(45deg, goldenrod, #ffcc00);
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: linear-gradient(45deg, #ffcc00, goldenrod);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Active (Click Effect) */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Card Display */
+#cards-el, #sum-el {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+/* Player Info */
+#player-el {
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    #message-el {
+        font-size: 1rem;
+    }
+    
+    button {
+        width: 140px;
+        font-size: 0.9rem;
+    }
+    
+    #cards-el, #sum-el {
+        font-size: 1.3rem;
+    }
+    
+    #player-el {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    #message-el {
+        font-size: 0.9rem;
+    }
+    
+    button {
+        width: 120px;
+        font-size: 0.8rem;
+        padding: 8px 0;
+    }
+    
+    #cards-el, #sum-el {
+        font-size: 1.2rem;
+    }
+    
+    #player-el {
+        font-size: 1rem;
+    }
+    img{
+        width: 200px;
+    }
+}
