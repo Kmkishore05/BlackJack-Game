@@ -1,19 +1,27 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# BlackJack Game
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Welcome to the BlackJack game! This project is a simple implementation of the classic BlackJack card game where the player competes against the dealer, provides a fun, interactive experience to play BlackJack.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Screenshot](#screenshot)
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
-Happy Coding!
+## Overview
+The BlackJack game allows the user to play against a dealer. The game follows traditional Blackjack rules where the objective is to have a hand value closer to 21 than the dealer, without exceeding it. The game supports:
+- Drawing cards.
+- Checking the hand's value.
+- Automatic game reset after each round.
+
+## Features
+- User-friendly interface with a deck of cards.
+- Game reset functionality after each round.
+- Ability to hit, stand, and see the dealer's face-down card.
+- Display of current hand value for both the player and dealer.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Kmkishore05blackjack-game.git
